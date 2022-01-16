@@ -1,5 +1,5 @@
-import Segments from "@dikac/t-string/array/segment-parameters";
-import SegmentString from "@dikac/t-string/boolean/segment-parameters";
+import Segments from "@alirya/string/array/segment-parameters";
+import SegmentString from "@alirya/string/boolean/segment-parameters";
 
 export default class Segment extends Set<string> {
 

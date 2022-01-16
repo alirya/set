@@ -1,2 +1,2 @@
-# t-set
+# set
 typescript set

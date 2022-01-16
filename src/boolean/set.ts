@@ -1,8 +1,8 @@
-import TypeObject from "@dikac/t-object/boolean/object";
-import Properties from "@dikac/t-object/property/boolean/exists";
-import Iterable from "@dikac/t-iterable/boolean/iterable";
-import List from "@dikac/t-array/boolean/list";
-import Method from "@dikac/t-object/boolean/method";
+import TypeObject from "@alirya/object/boolean/object";
+import Properties from "@alirya/object/property/boolean/exists";
+import Iterable from "@alirya/iterable/boolean/iterable";
+import List from "@alirya/array/boolean/list";
+import Method from "@alirya/object/boolean/method";
 
 export default function Set(value : object) : value is Set<unknown> {
 
