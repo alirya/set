@@ -1,8 +1,8 @@
-import SetBoolean from "../../dist/boolean/set";
+import SetBoolean from '../../dist/boolean/set';
 
-it("force console log", () => { spyOn(console, 'log').and.callThrough();});
+it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
-it("true", () => {
+it('true', () => {
 
-    expect(SetBoolean(new Set())).toBe(true)
+    expect(SetBoolean(new Set())).toBe(true);
 });

@@ -1,5 +1,5 @@
-import Segments from "@alirya/string/array/segment-parameters";
-import SegmentString from "@alirya/string/boolean/segment-parameters";
+import Segments from '@alirya/string/array/segment-parameters';
+import SegmentString from '@alirya/string/boolean/segment-parameters';
 
 export default class Segment extends Set<string> {
 
@@ -15,7 +15,7 @@ export default class Segment extends Set<string> {
 
         Segments(value, this.delimiter).forEach((value)=>{
 
-            super.add(value)
+            super.add(value);
         });
 
         return this;

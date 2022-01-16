@@ -26,7 +26,7 @@ export default class RefreshInterval<Type> extends Set<Type> {
     start(): void {
 
         this.stop();
-        this.interval = setInterval(()=>this.callback(this), this.#milliseconds)
+        this.interval = setInterval(()=>this.callback(this), this.#milliseconds);
     }
 
     get seconds() : number {
@@ -50,7 +50,7 @@ export default class RefreshInterval<Type> extends Set<Type> {
 
         this.#milliseconds = milliseconds;
 
-        this.start()
+        this.start();
     }
 
 }

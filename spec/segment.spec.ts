@@ -1,10 +1,10 @@
-import Segment from "../dist/segment";
+import Segment from '../dist/segment';
 
-it("force console log", () => { spyOn(console, 'log').and.callThrough();});
+it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 let set = new Segment('.',['root.parent.child']);
 
-it("constructor", function() {
+it('constructor', function() {
 
     expect([...set]).toEqual([
         'root',
@@ -13,13 +13,13 @@ it("constructor", function() {
     ]);
 });
 
-it("remove root", function() {
+it('remove root', function() {
 
     set.delete('root');
     expect([...set]).toEqual([]);
 });
 
-it("add multi", function() {
+it('add multi', function() {
 
     set.add('root.parent.child');
     expect([...set]).toEqual([
@@ -29,7 +29,7 @@ it("add multi", function() {
     ]);
 });
 
-it("remove middle", function() {
+it('remove middle', function() {
 
     set.delete('root.parent');
     expect([...set]).toEqual([
@@ -37,7 +37,7 @@ it("remove middle", function() {
     ]);
 });
 
-it("add multi", function() {
+it('add multi', function() {
 
     set.add('root.parent.child');
     expect([...set]).toEqual([
@@ -48,7 +48,7 @@ it("add multi", function() {
 });
 
 
-it("add multi", function() {
+it('add multi', function() {
 
     set.add('root2.parent2.child2.sub2');
     expect([...set]).toEqual([
@@ -62,7 +62,7 @@ it("add multi", function() {
     ]);
 });
 
-it("remove root", function() {
+it('remove root', function() {
 
     set.delete('root');
     set.delete('root2');
@@ -70,7 +70,7 @@ it("remove root", function() {
 });
 
 
-it("add multi", function() {
+it('add multi', function() {
 
     set.add('root.parent.child.sub');
     set.add('root2.parent2.child2.sub2');
