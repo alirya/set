@@ -1,12 +1,12 @@
 {
   "name": "@alirya/set",
-  "version": "0.6.8",
+  "version": "0.7.0",
   "description": "Typescript set",
   "dependencies": {
-    "@alirya/array": "^0.26.0-alpha.4",
-    "@alirya/iterable": "^0.5.0-alpha.2",
-    "@alirya/object": "^0.37.0-alpha.5",
-    "@alirya/string": "^0.16.0-alpha.4"
+    "@alirya/array": "0.26.0",
+    "@alirya/iterable": "0.5.0",
+    "@alirya/object": "0.37.0",
+    "@alirya/string": "0.16.0"
   },
   "homepage": "https://github.com/alirya/set",
   "repository": {
