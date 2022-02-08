@@ -4,10 +4,10 @@
   "description": "Typescript set",
   "dependencies": {
     "tslib": "^2.3.1",
-    "@alirya/array": "0.26.0",
-    "@alirya/iterable": "0.5.0",
-    "@alirya/object": "0.37.1",
-    "@alirya/string": "0.16.1"
+    "@alirya/array": "^0.26.0",
+    "@alirya/iterable": "^0.5.0",
+    "@alirya/object": "^0.37.1",
+    "@alirya/string": "^0.16.2"
   },
   "devDependencies": {
     "@types/jasmine": "^3.10.2",
