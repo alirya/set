@@ -6,7 +6,8 @@
     "@alirya/array": "^0.26.0",
     "@alirya/iterable": "^0.5.1",
     "@alirya/object": "^0.37.2",
-    "@alirya/string": "^0.16.3"
+    "@alirya/string": "^0.16.3",
+    "@alirya/value": "^0.15.0"
   },
   "homepage": "https://github.com/alirya/set",
   "repository": {
