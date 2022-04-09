@@ -1,76 +1,62 @@
 
 export default class Wrapper <T, Container extends Set<T> = Set<T>> implements Set<T> {
 
-    private _set !: Container;
-
-    constructor(set: Container)  {
-        this.setSet(set);
-    }
-
-    protected setSet (set : Container) {
-
-        this._set = set;
-    }
-
-    protected getSet () : Container {
-
-        return this._set;
-    }
+    constructor(protected set: Container)  {}
 
     [Symbol.iterator](): IterableIterator<T> {
 
-        return this._set[Symbol.iterator]();
+        return this.set[Symbol.iterator]();
     }
 
     entries(): IterableIterator<[T, T]> {
 
-        return this._set.entries();
+        return this.set.entries();
     }
 
     keys(): IterableIterator<T> {
 
-        return this._set.keys();
+        return this.set.keys();
     }
 
     forEach(callbackfn: (value: T, value2: T, set: Set<T>) => void, thisArg?: any): void {
 
-        this._set.forEach(callbackfn, thisArg);
+        this.set.forEach(callbackfn, thisArg);
     }
 
     values(): IterableIterator<T> {
 
-        return this._set.values();
+        return this.set.values();
     }
 
     add(value: T) : this {
 
-        this._set.add(value);
+        this.set.add(value);
         return this;
     }
 
     clear(): void {
 
-        this._set.clear();
+        this.set.clear();
     }
 
     delete(value: T): boolean {
 
-        return this._set.delete(value);
+        return this.set.delete(value);
     }
 
     get [Symbol.toStringTag](): string {
 
-        return this._set[Symbol.toStringTag];
+        return this.set[Symbol.toStringTag];
     }
 
     get size(): number {
 
-        return this._set.size;
+        return this.set.size;
     }
 
     has(value: T): boolean {
 
-        return this._set.has(value);
+        return this.set.has(value);
     }
 }
 
