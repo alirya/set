@@ -6,6 +6,11 @@ import Method from '@alirya/object/boolean/method';
 
 export default function Set(value : object) : value is Set<unknown> {
 
+    if(value instanceof Set) {
+
+        return true;
+    }
+
     if(!TypeObject(value)) {
 
         return false;
