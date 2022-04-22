@@ -18,7 +18,7 @@
     "tslib": "^2.3.1",
     "@alirya/array": "^0.26.3",
     "@alirya/iterable": "^0.5.3",
-    "@alirya/object": "^0.37.4",
+    "@alirya/object": "^0.37.8",
     "@alirya/string": "^0.16.8",
     "@alirya/value": "^0.15.2"
   },
@@ -40,7 +40,7 @@
     "ts-toolbelt": "^9.6.0",
     "utility-types": "^3.10.0",
     "package-version-git-tag": "^3.0.0",
-    "cpx": "^1.5.0"
+    "cpx2": "^4.2.0"
   },
   "scripts": {
     "spec-run-js": "node -r esm node_modules/jasmine/bin/jasmine.js --config=./jasmine.json",
