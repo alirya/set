@@ -1,4 +1,4 @@
-import Shuffle from "@alirya/array/shuffle-parameters";
+import Shuffle from '@alirya/array/shuffle-parameters';
 import Once, {OnceValue} from '../../dist/once';
 import Priority, {PriorityValue} from '../../dist/priority';
 
