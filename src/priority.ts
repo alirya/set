@@ -1,6 +1,6 @@
 import Wrapper from './wrapper';
 import Value from '@alirya/value/value';
-import SortParameters from './void/sort-parameters';
+import {SortParameters} from './void/sort';
 
 export interface PriorityValue<Type = unknown> extends Value<Type> {
     priority ?: number;

@@ -1,5 +1,5 @@
-import Segments from '@alirya/string/array/segment-parameters';
-import SegmentString from '@alirya/string/boolean/segment-parameters';
+import {SegmentParameters} from '@alirya/string/array/segment';
+import SegmentString from '@alirya/string/boolean/segment';
 
 export default class Segment extends Set<string> {
 
@@ -13,7 +13,7 @@ export default class Segment extends Set<string> {
 
     add(value: string): this {
 
-        Segments(value, this.delimiter).forEach((value)=>{
+        SegmentParameters(value, this.delimiter).forEach((value)=>{
 
             super.add(value);
         });
@@ -27,7 +27,7 @@ export default class Segment extends Set<string> {
 
         for (let data of this) {
 
-            if(SegmentString(value, data, this.delimiter)) {
+            if(SegmentString.Parameters(value, data, this.delimiter)) {
 
                 deleted = true;
                 super.delete(data);

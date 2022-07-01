@@ -27,7 +27,7 @@ export default function Set(value : object) : value is Set<unknown> {
         return false;
     }
 
-    if(!Properties(value, 'size')) {
+    if(!Properties.Parameters(value, 'size')) {
 
         return false;
     }
