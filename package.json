@@ -1,6 +1,6 @@
 {
   "name": "@alirya/set",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "Typescript set",
   "publishConfig": {
     "directory": "dist"
@@ -16,11 +16,11 @@
   },
   "dependencies": {
     "tslib": "^2.3.1",
-    "@alirya/array": "^0.26.3",
-    "@alirya/iterable": "^0.5.3",
-    "@alirya/object": "^0.37.8",
-    "@alirya/string": "^0.16.8",
-    "@alirya/value": "^0.15.2"
+    "@alirya/array": "^0.27.0",
+    "@alirya/iterable": "^0.6.0",
+    "@alirya/object": "^0.38.0",
+    "@alirya/string": "^0.17.0",
+    "@alirya/value": "^0.16.0"
   },
   "devDependencies": {
     "@types/jasmine": "^3.10.2",
