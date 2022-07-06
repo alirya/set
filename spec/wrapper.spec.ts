@@ -1,4 +1,4 @@
-import Wrapper from '../dist/wrapper';
+import Wrapper from '../dist/wrapper.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 

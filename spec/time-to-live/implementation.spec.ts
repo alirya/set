@@ -1,4 +1,4 @@
-import TimeToLive from '../../dist/time-to-live';
+import TimeToLive from '../../dist/time-to-live.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 

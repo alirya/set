@@ -1,4 +1,4 @@
-import SetBoolean from '../../dist/boolean/set';
+import SetBoolean from '../../dist/boolean/set.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 

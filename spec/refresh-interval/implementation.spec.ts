@@ -1,4 +1,4 @@
-import RefreshInterval from '../../dist/refresh-interval';
+import RefreshInterval from '../../dist/refresh-interval.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 

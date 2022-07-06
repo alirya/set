@@ -1,6 +1,6 @@
-import Shuffle from '@alirya/array/shuffle-parameters';
-import Once, {OnceValue} from '../../dist/once';
-import Priority, {PriorityValue} from '../../dist/priority';
+import Shuffle from '@alirya/array/shuffle-parameters.js';
+import Once, {OnceValue} from '../../dist/once.js';
+import Priority, {PriorityValue} from '../../dist/priority.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
