@@ -6,6 +6,12 @@ export interface PriorityValue<Type = unknown> extends Value<Type> {
     priority ?: number;
 }
 
+/**
+ * Set with priority on iteration
+ *
+ * highest priority first, returned on iteration
+ *
+ */
 export default class Priority<Type extends PriorityValue> extends Wrapper<Type> {
 
     private dirty : boolean = true;
