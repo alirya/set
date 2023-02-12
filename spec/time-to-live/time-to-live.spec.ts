@@ -1,10 +1,10 @@
-import TimeToLive from '../../dist/time-to-live';
+import TimeToLive from '../../dist/time-to-live.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 describe('has', ()=>{
 
-    let ttl = new TimeToLive(2000);
+    const ttl = new TimeToLive(2000);
 
     it('add data', function() {
 
@@ -28,7 +28,7 @@ describe('has', ()=>{
 
 describe('iterator', ()=>{
 
-    let ttl = new TimeToLive(2000);
+    const ttl = new TimeToLive(2000);
 
     it('add data', function() {
 
@@ -50,7 +50,7 @@ describe('iterator', ()=>{
 
 describe('values', ()=>{
 
-    let ttl = new TimeToLive(2000);
+    const ttl = new TimeToLive(2000);
 
     it('add data', function() {
 
@@ -72,7 +72,7 @@ describe('values', ()=>{
 
 describe('keys', ()=>{
 
-    let ttl = new TimeToLive(2000);
+    const ttl = new TimeToLive(2000);
 
     it('add data', function() {
 

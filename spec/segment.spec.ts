@@ -1,8 +1,8 @@
-import Segment from '../dist/segment';
+import Segment from '../dist/segment.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
-let set = new Segment('.',['root.parent.child']);
+const set = new Segment('.',['root.parent.child']);
 
 it('constructor', function() {
 

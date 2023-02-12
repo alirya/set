@@ -1,5 +1,5 @@
-import {SegmentParameters} from '@alirya/string/array/segment';
-import SegmentString from '@alirya/string/boolean/segment';
+import {SegmentParameters} from '@alirya/string/array/segment.js';
+import SegmentString from '@alirya/string/boolean/segment.js';
 
 export default class Segment extends Set<string> {
 
@@ -25,7 +25,7 @@ export default class Segment extends Set<string> {
 
         let deleted = true;
 
-        for (let data of this) {
+        for (const data of this) {
 
             if(SegmentString.Parameters(value, data, this.delimiter)) {
 

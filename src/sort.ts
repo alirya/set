@@ -1,8 +1,8 @@
-import Callable from '@alirya/function/callable';
-import BaseSortParameters from './void/sort';
-import Clone from './clone';
-import Value from '@alirya/value/value';
-import SetContainer from './set/set';
+import Callable from '@alirya/function/callable.js';
+import BaseSortParameters from './void/sort.js';
+import Clone from './clone.js';
+import Value from '@alirya/value/value.js';
+import SetContainer from './set/set.js';
 
 export function SortParameters<Value> (
     set : Set<Value>,

@@ -9,7 +9,7 @@ export default function FromString(
         target = new Set<string>();
     }
 
-    for(let val of source.split(delimiter)) {
+    for(const val of source.split(delimiter)) {
 
         if(val.length) {
 

@@ -1,8 +1,8 @@
-import TypeObject from '@alirya/object/boolean/object';
-import Properties from '@alirya/object/property/boolean/exists';
-import Iterable from '@alirya/iterable/boolean/iterable';
-import List from '@alirya/array/boolean/list';
-import Method from '@alirya/object/boolean/method';
+import TypeObject from '@alirya/object/boolean/object.js';
+import Properties from '@alirya/object/property/boolean/exists.js';
+import Iterable from '@alirya/iterable/boolean/iterable.js';
+import List from '@alirya/array/boolean/list.js';
+import Method from '@alirya/object/boolean/method.js';
 
 export default function Set(value : object) : value is Set<unknown> {
 

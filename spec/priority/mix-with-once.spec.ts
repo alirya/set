@@ -1,6 +1,6 @@
-import Shuffle from '@alirya/array/shuffle-parameters';
-import Once, {OnceValue} from '../../dist/once';
-import Priority, {PriorityValue} from '../../dist/priority';
+import Once, {OnceValue} from '../../dist/once.js';
+import Priority, {PriorityValue} from '../../dist/priority.js';
+import {ShuffleParameters} from '../../../array/dist/shuffle.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
@@ -31,7 +31,7 @@ describe('test', function() {
 
     it('value', function() {
 
-        const source = new Priority(new Once(new Set<Type>(Shuffle(sorted))));
+        const source = new Priority(new Once(new Set<Type>(ShuffleParameters(sorted))));
         expect(source.size).toEqual(7);
 
         expect([...source.values()]).toEqual(sorted);
@@ -45,7 +45,7 @@ describe('test', function() {
 
     it('key', function() {
 
-        const source = new Priority(new Once(new Set<Type>(Shuffle(sorted))));
+        const source = new Priority(new Once(new Set<Type>(ShuffleParameters(sorted))));
         expect(source.size).toEqual(7);
 
         expect([...source.keys()]).toEqual(sorted);
@@ -58,7 +58,7 @@ describe('test', function() {
 
     it('entries', function() {
 
-        const source = new Priority(new Once(new Set<Type>(Shuffle(sorted))));
+        const source = new Priority(new Once(new Set<Type>(ShuffleParameters(sorted))));
         expect(source.size).toEqual(7);
 
         expect([...source.entries()]).toEqual(sorted.map(value=>[value, value]));
@@ -70,7 +70,7 @@ describe('test', function() {
 
     it('forEach', function() {
 
-        const source = new Priority(new Once(new Set<Type>(Shuffle(sorted))));
+        const source = new Priority(new Once(new Set<Type>(ShuffleParameters(sorted))));
         expect(source.size).toEqual(7);
 
         {
@@ -96,7 +96,7 @@ describe('test', function() {
 
     it('for', function() {
 
-        const source = new Priority(new Once(new Set<Type>(Shuffle(sorted))));
+        const source = new Priority(new Once(new Set<Type>(ShuffleParameters(sorted))));
         expect(source.size).toEqual(7);
 
         {

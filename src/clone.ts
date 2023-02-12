@@ -3,7 +3,7 @@ export default function Clone<V>(
     destination : Set<V> = new Set<V>()
 ) : Set<V> {
 
-    for(let value of source) {
+    for(const value of source) {
 
         destination.add(value);
     }

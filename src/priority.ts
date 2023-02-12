@@ -1,6 +1,6 @@
-import Wrapper from './wrapper';
-import Value from '@alirya/value/value';
-import {SortParameters} from './void/sort';
+import Wrapper from './wrapper.js';
+import Value from '@alirya/value/value.js';
+import {SortParameters} from './void/sort.js';
 
 export interface PriorityValue<Type = unknown> extends Value<Type> {
     priority ?: number;
@@ -14,7 +14,7 @@ export interface PriorityValue<Type = unknown> extends Value<Type> {
  */
 export default class Priority<Type extends PriorityValue> extends Wrapper<Type> {
 
-    private dirty : boolean = true;
+    private dirty  = true;
 
     private rebuild() : void {
 

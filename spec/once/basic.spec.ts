@@ -1,4 +1,4 @@
-import Once, {OnceValue} from '../../dist/once';
+import Once, {OnceValue} from '../../dist/once.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
