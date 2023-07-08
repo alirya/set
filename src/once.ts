@@ -5,6 +5,10 @@ export interface OnceValue<Type = unknown> extends Value<Type> {
     once ?: boolean;
 }
 
+/**
+ * allow value to be flagged as once (optional)
+ * value with once flag will be removed on extraction
+ */
 export default class Once<Type extends OnceValue> extends Wrapper<Type> {
 
     protected deleteOnce(type: Type) {
