@@ -1,5 +1,5 @@
 {
-  "name": "@alirya/set",
+  "name": "@axiona/set",
   "version": "0.9.1",
   "description": "Typescript set",
   "publishConfig": {
@@ -12,18 +12,18 @@
     "cache": false
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/alirya/set",
+  "homepage": "https://github.com/axiona/set",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alirya/set"
+    "url": "https://github.com/axiona/set"
   },
   "dependencies": {
     "tslib": "^2.5.0",
-    "@alirya/array": "^0.27.1",
-    "@alirya/iterable": "^0.6.1",
-    "@alirya/object": "^0.38.1",
-    "@alirya/string": "^0.17.1",
-    "@alirya/value": "^0.16.1"
+    "@axiona/array": "^0.27.1",
+    "@axiona/iterable": "^0.6.1",
+    "@axiona/object": "^0.38.1",
+    "@axiona/string": "^0.17.1",
+    "@axiona/value": "^0.16.1"
   },
   "devDependencies": {
     "@types/jasmine": "^3.10.2",

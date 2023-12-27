@@ -1,5 +1,5 @@
 import Wrapper from './wrapper.js';
-import Value from '@alirya/value/value.js';
+import Value from '@axiona/value/value.js';
 
 export interface OnceValue<Type = unknown> extends Value<Type> {
     once ?: boolean;

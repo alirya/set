@@ -1,5 +1,5 @@
-import {SegmentParameters} from '@alirya/string/array/segment.js';
-import SegmentString from '@alirya/string/boolean/segment.js';
+import {SegmentParameters} from '@axiona/string/array/segment.js';
+import SegmentString from '@axiona/string/boolean/segment.js';
 
 export default class Segment extends Set<string> {
 
