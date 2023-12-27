@@ -1,6 +1,6 @@
 {
   "name": "@axiona/set",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "description": "Typescript set",
   "publishConfig": {
     "directory": "dist"
@@ -19,11 +19,11 @@
   },
   "dependencies": {
     "tslib": "^2.5.0",
-    "@axiona/array": "^0.27.1",
-    "@axiona/iterable": "^0.6.1",
-    "@axiona/object": "^0.38.1",
-    "@axiona/string": "^0.17.1",
-    "@axiona/value": "^0.16.1"
+    "@axiona/array": "^0.28.0",
+    "@axiona/iterable": "^0.7.0",
+    "@axiona/object": "^0.39.0",
+    "@axiona/string": "^0.18.0",
+    "@axiona/value": "^0.17.0"
   },
   "devDependencies": {
     "@types/jasmine": "^3.10.2",
